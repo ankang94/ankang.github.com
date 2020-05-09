@@ -1,27 +1,248 @@
 {
-    "angular": [
-        {
-          "title": "我啥都不会",
-          "subtext": "adfsafdsafdsafdsafdsafdsafdsafdsafdsafdsafdsa",
-          "name": "wsdbh",
-          "create": "2020/4/30"
-        },
-        {
-          "title": "我啥都不会2",
-          "subtext": "ffffffffffffff",
-          "name": "wsdbh2"
-        }
-    ],
-    "nodejs": [
-        {
-            "title": "nodejs难用",
-            "subtext": "adfsafdsafdsafdsafdsafdsafdsafdsafdsafdsafdsa",
-            "name": "nd1"
-          },
-          {
-            "title": "我不用nodejs",
-            "subtext": "ffffffffffffff",
-            "name": "nd2"
-          }
+  "angular": {
+    "title": "Angular笔记",
+    "subtext": "不是我写的, 抄的网上的",
+    "source": "",
+    "catlog": []
+  },
+  "nodejs": {
+    "title": "Nodejs笔记",
+    "subtext": "github上down的笔记，我啥都不会",
+    "source": "yunnysunny",
+    "catlog": [
+      {
+        "title": "前言",
+        "subtext": "",
+        "name": "00_preface"
+      },
+      {
+        "title": "1 Node.js 体系结构",
+        "subtext": "",
+        "name": "01_node_introduce"
+      },
+      {
+        "title": "2 JavaScript 那些事",
+        "subtext": "",
+        "name": "02_node_javascript"
+      },
+      {
+        "title": "3 Node 基础",
+        "subtext": "",
+        "name": "03_node_basic"
+      },
+      {
+        "title": "4 NPM 包管理工具",
+        "subtext": "",
+        "name": "04_node_npm"
+      },
+      {
+        "title": "5 Node 中使用数据",
+        "subtext": "",
+        "name": "05_node_database"
+      },
+      {
+        "title": "6 Express 介绍",
+        "subtext": "",
+        "name": "06_node_express_basic"
+      },
+      {
+        "title": "7 Express 进阶",
+        "subtext": "",
+        "name": "07_node_express_advance"
+      },
+      {
+        "title": "8 Node.js 单元测试",
+        "subtext": "",
+        "name": "08_node_unit_test"
+      },
+      {
+        "title": "9 Node.js 最佳实践",
+        "subtext": "",
+        "name": "09_node_production"
+      },
+      {
+        "title": "10 Node.js 的 c++ 扩展",
+        "subtext": "",
+        "name": "10_node_addon"
+      },
+      {
+        "title": "11 Node.js 调优",
+        "subtext": "",
+        "name": "11_node_optimization"
+      },
+      {
+        "title": "12 Node.js Web 安全",
+        "subtext": "",
+        "name": "12_node_web_security"
+      },
+      {
+        "title": "A1 Node.js 好用工具介绍",
+        "subtext": "",
+        "name": "a1_node_utils"
+      },
+      {
+        "title": "A2 参考资源",
+        "subtext": "",
+        "name": "a2_bibliography"
+      },
+      {
+        "title": "A3 书籍写作规范",
+        "subtext": "",
+        "name": "a3_convention"
+      },
+      {
+        "title": "A4 HTTP请求参数",
+        "subtext": "",
+        "name": "a4_node_http"
+      }
+
     ]
+  },
+  "es6": {
+    "title": "ECMAScript 6",
+    "subtext": "《ECMAScript 6 入门教程》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。",
+    "source": "ruanyf",
+    "catlog": [
+      {
+        "title": "ECMAScript 6简介",
+        "subtext": "",
+        "name": "intro"
+      },
+      {
+        "title": "let 和 const 命令",
+        "subtext": "",
+        "name": "let"
+      },
+      {
+        "title": "变量的解构赋值",
+        "subtext": "",
+        "name": "destructuring"
+      },
+      {
+        "title": "字符串的扩展",
+        "subtext": "",
+        "name": "string"
+      },
+      {
+        "title": "正则的扩展",
+        "subtext": "",
+        "name": "regex"
+      },
+      {
+        "title": "数值的扩展",
+        "subtext": "",
+        "name": "number"
+      },
+      {
+        "title": "函数的扩展",
+        "subtext": "",
+        "name": "function"
+      },
+      {
+        "title": "数组的扩展",
+        "subtext": "",
+        "name": "array"
+      },
+      {
+        "title": "对象的扩展",
+        "subtext": "",
+        "name": "object"
+      },
+      {
+        "title": "Symbol",
+        "subtext": "",
+        "name": "symbol"
+      },
+      {
+        "title": "Set 和 Map 数据结构",
+        "subtext": "",
+        "name": "set-map"
+      },
+      {
+        "title": "Proxy",
+        "subtext": "",
+        "name": "proxy"
+      },
+      {
+        "title": "Reflect",
+        "subtext": "",
+        "name": "reflect"
+      },
+      {
+        "title": "Promise",
+        "subtext": "",
+        "name": "promise"
+      },
+      {
+        "title": "Iterator 和 for...of 循环",
+        "subtext": "",
+        "name": "iterator"
+      },
+      {
+        "title": "Generator 函数的语法",
+        "subtext": "",
+        "name": "generator"
+      },
+      {
+        "title": "Generator 函数的异步应用",
+        "subtext": "",
+        "name": "generator-async"
+      },
+      {
+        "title": "async 函数",
+        "subtext": "",
+        "name": "async"
+      },
+      {
+        "title": "Class 的基本语法",
+        "subtext": "",
+        "name": "class"
+      },
+      {
+        "title": "Class 的继承",
+        "subtext": "",
+        "name": "class-extends"
+      },
+      {
+        "title": "Decorator",
+        "subtext": "",
+        "name": "decorator"
+      },
+      {
+        "title": "Module 的语法",
+        "subtext": "",
+        "name": "module"
+      },
+      {
+        "title": "Module 的加载实现",
+        "subtext": "",
+        "name": "module-loader"
+      },
+      {
+        "title": "编程风格",
+        "subtext": "",
+        "name": "style"
+      },
+      {
+        "title": "读懂规格",
+        "subtext": "",
+        "name": "spec"
+      },
+      {
+        "title": "ArrayBuffer",
+        "subtext": "",
+        "name": "arraybuffer"
+      },
+      {
+        "title": "最新提案",
+        "subtext": "",
+        "name": "proposals"
+      },
+      {
+        "title": "参考链接",
+        "subtext": "",
+        "name": "reference"
+      }
+    ]
+  }
 }
