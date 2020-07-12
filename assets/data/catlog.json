@@ -12,8 +12,9 @@
     "catlog": [
       {
         "title": "前言",
-        "subtext": "",
-        "name": "00_preface"
+        "subtext": "node.js 简介",
+        "name": "00_preface",
+        "create": "2020-07-11"
       },
       {
         "title": "1 Node.js 体系结构",
@@ -242,6 +243,103 @@
         "title": "参考链接",
         "subtext": "",
         "name": "reference"
+      }
+    ]
+  },
+  "js": {
+    "title": "JavaScript",
+    "subtext": "JavaScript深入系列和专题系列。",
+    "source": "yayujs",
+    "catlog": [
+      {
+        "title": "从原型到原型链",
+        "subtext": "JavaScript深入系列",
+        "name": "prototype",
+        "create": "2020-07-12"
+      },
+      {
+        "title": "词法作用域和动态作用域",
+        "subtext": "JavaScript深入系列",
+        "name": "scope",
+        "create": "2020-07-12"
+      },
+      {
+        "title": "执行上下文栈",
+        "subtext": "JavaScript深入系列",
+        "name": "stack",
+        "create": "2020-07-12"
+      },
+      {
+        "title": "变量对象",
+        "subtext": "JavaScript深入系列",
+        "name": "variable",
+        "create": "2020-07-12"
+      },
+      {
+        "title": "作用域链",
+        "subtext": "JavaScript深入系列",
+        "name": "scopelink",
+        "create": "2020-07-12"
+      },
+      {
+        "title": "从ECMAScript规范解读this",
+        "subtext": "JavaScript深入系列",
+        "name": "this",
+        "create": "2020-07-12"
+      },
+      {
+        "title": "执行上下文",
+        "subtext": "JavaScript深入系列",
+        "name": "content",
+        "create": "2020-07-12"
+      },
+      {
+        "title": "闭包",
+        "subtext": "JavaScript深入系列",
+        "name": "closure",
+        "create": "2020-07-12"
+      },
+      {
+        "title": "参数按值传递",
+        "subtext": "JavaScript深入系列",
+        "name": "param",
+        "create": "2020-07-12"
+      },
+      {
+        "title": "call和apply的模拟实现",
+        "subtext": "JavaScript深入系列",
+        "name": "call",
+        "create": "2020-07-12"
+      },
+      {
+        "title": "bind的模拟实现",
+        "subtext": "JavaScript深入系列",
+        "name": "bind",
+        "create": "2020-07-12"
+      },
+      {
+        "title": "new的模拟实现",
+        "subtext": "JavaScript深入系列",
+        "name": "new",
+        "create": "2020-07-12"
+      },
+      {
+        "title": "类数组对象与arguments",
+        "subtext": "JavaScript深入系列",
+        "name": "arguments",
+        "create": "2020-07-12"
+      },
+      {
+        "title": "创建对象的多种方式以及优缺点",
+        "subtext": "JavaScript深入系列",
+        "name": "object",
+        "create": "2020-07-12"
+      },
+      {
+        "title": "继承的多种方式以及优缺点",
+        "subtext": "JavaScript深入系列",
+        "name": "extends",
+        "create": "2020-07-12"
       }
     ]
   }
